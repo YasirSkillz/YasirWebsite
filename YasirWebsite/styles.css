@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #167a7c;
+}
+
+.YasirShah,
+.school {
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.YasirShah {
+	
+    background-color: #16a0a3;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    width: 500px;
+    height: 250px;
+}
+
+.YasirShah h1 {
+	color:#0a7b7e;
+}
+.YasirShah h3 {
+	color: white;
+}
+
+.school {
+    background-color: #16a0a3;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: auto; /* Center horizontally */
+    width: 500px;
+}
+
+.interests {
+    width: 30%;
+    background-color: #16a0a3;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: -361px;
+}
+
+.interests h2, h3 {
+	color: #0a7b7e
+	
+}
+.image {
+    display: flex;
+    width: 250px; 
+    height: auto; 
+    margin-left: -1250px; 
+}
+
+a:link {
+  color: #0a7b7e;
+}
+
+a:visited {
+  color: #0a7b7e;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  text-decoration: underline;
+}
